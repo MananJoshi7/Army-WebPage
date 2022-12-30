@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<style>
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        background-image: url('img/thumb.jpg');
+        background-repeat: no-repeat;
+        margin: 0px;
+        padding: 0px;
+        width: 100vw;
+        background-size: cover;
+        object-fit: fill;
+    }
+
+    .left {
+        font-family: 'Baloo Bhai', cursive;
+        display: inline-block;
+        /* border: 3px solid red; */
+        position: absolute;
+        top: 20px;
+        left: 37px;
+    }
+
+    .mid {
+        font-family: 'Baloo Bhai', cursive;
+        display: block;
+        margin: 25px auto;
+        width: 37%;
+        /* border: 3px solid green; */
+        top: 20px;
+    }
+
+    .right {
+        font-family: 'Baloo Bhai', cursive;
+        position: absolute;
+        right: 34px;
+        top: 23px;
+        display: inline-block;
+        padding: 5px 3px;
+        /* border: 3px solid yellow; */
+    }
+
+    .navbar {
+        display: inline;
+   
+    }
+
+    .navbar li {
+        font-family: 'Baloo Bhai', cursive;
+        display: inline;
+        font-size: 17px;
+        
+    }
+    .navbar li a{
+        font-family: 'Baloo Bhai', cursive;
+        display: inline;
+        color: azure;
+        text-decoration: none;
+        padding: 34px 24px;
+        font-size: 18px;
+
+    }
+    .navbar li a:hover,.navbar li a.active{
+        text-decoration: underline;
+        color: black;
+
+        
+    }
+    .left img{
+        width: 50px;
+        margin: 3px 12px;
+
+    }
+    .left div{
+        text-align: center;
+    }
+    .btn{
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        border-radius: 7px;
+        color: white;
+        background-color: black;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: gray;
+    }
+    .container{
+        backdrop-filter: rgb(167, 167, 167);
+        padding: 17px;
+        margin: 106px 80px;
+        width: 33%;
+        border-radius: 28px;
+    }
+    .formgroup input{
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 400px;
+         padding: 1px; 
+        /* border: 2px solid black; */
+        
+        margin: 11px auto;
+        font-size: 15px;
+        border-radius: 8px;
+    }
+    .container h2{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 400px;
+        margin: 15px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <div>Indian Army</div>
+            <img src="img/download.jpg" alt="">
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Inquery</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+           <button class="btn">Login</button>
+           <button class="btn">Sign Up</button>
+
+        </div>
+    </header>
+    <div class="container">
+       <h2>Join the best Academy in Gujarat</h2>
+       <form action="noaction.php">
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter Your Name ">
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter Your Age ">
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter Your Gender ">
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter Your Locality ">
+            
+
+        </div>
+        <button class="btn">Submit</button>
+       </form>
+
+    </div>
+
+</body>
+
+</html>
